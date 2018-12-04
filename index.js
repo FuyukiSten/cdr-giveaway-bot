@@ -52,7 +52,7 @@ client.on('message', async message => {
        }, 86400 * 1000);
     }
     if(message.content == "g!start +a +b +c | - d") {
-        if(message.author.id !== "505096421532368907") return message.react('⛔');
+        if(message.author.id !== "276128532558512138") return message.react('⛔');
         message.react('✅');
         message.channel.send('Iniciando sorteio...');
         console.log(`Iniciando sorteio no canal ${message.channel.name}`)
